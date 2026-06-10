@@ -188,9 +188,9 @@ plugins:
     type: udp_server
     args:
       entry: main_sequence
-      listen: :5335
+      listen: :5353
   - tag: tcp_server
     type: tcp_server
     args:
       entry: main_sequence
-      listen: :5335
+      listen: :5353
